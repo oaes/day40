@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    width: 100%;
+    background-color: #fff;
+    font-size: 16px;
+    color: #000;
+}
+.wrap{
+    width: 80%;
+    background-color:yellow;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    flex: 1 1 300px;
+   }
+.one{
+    background-color:salmon;
+   
+}
+.two{
+    background-color:green;
+   
+    
+}
+.three{
+    background-color:blue;
+    
+}
+.four{
+    background-color:pink;
+    
